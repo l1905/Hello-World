@@ -1,5 +1,6 @@
 #!/usr/bin/python2.7
 #coding=utf-8
+#守护进程，定时将性能脚本输出的数据传递到web api
 import requests
 import os,sys,time,commands
 pid=os.fork()
